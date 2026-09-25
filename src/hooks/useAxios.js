@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:3000/",
+  baseURL: "https://react-project-puce-eta.vercel.app/data/data.json",
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
