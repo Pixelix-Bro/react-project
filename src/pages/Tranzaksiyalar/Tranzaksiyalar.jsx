@@ -328,14 +328,16 @@ function Otkazma() {
 
               <div className="flex flex-col gap-2">
                 <label className="font-medium">Summa (so'm)</label>
-
                 <input
                   required
                   min="0"
-                  type="number"
+                  type="text"
                   placeholder="0"
-                  value={summa}
-                  onChange={(e) => setSumma(e.target.value)}
+                  value={summa ? Number(summa).toLocaleString("uz-UZ") : ""}
+                  onChange={(e) => {
+                    const value = e.target.value.replace(/\D/g, "");
+                    setSumma(value);
+                  }}
                   className="rounded-xl border border-gray-300 bg-gray-50 px-4 py-3 outline-none transition focus:border-black focus:ring-2 focus:ring-black/10"
                 />
               </div>
@@ -498,10 +500,13 @@ function Otkazma() {
                 <input
                   required
                   min="0"
-                  type="number"
+                  type="text"
                   placeholder="0"
-                  value={summa}
-                  onChange={(e) => setSumma(e.target.value)}
+                  value={summa ? Number(summa).toLocaleString("uz-UZ") : ""}
+                  onChange={(e) => {
+                    const value = e.target.value.replace(/\D/g, "");
+                    setSumma(value);
+                  }}
                   className="rounded-xl border border-gray-300 bg-gray-50 px-4 py-3 outline-none transition focus:border-black focus:ring-2 focus:ring-black/10"
                 />
               </div>

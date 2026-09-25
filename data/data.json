@@ -10,52 +10,12 @@
   ],
   "harajat": [
     {
-      "id": "2mqN-IplIQY",
-      "title": "doktr",
+      "title": "supermarket",
       "category": "salomat",
       "type": "income",
-      "amount": "12000",
-      "date": "2026-08-10"
-    },
-    {
-      "id": "f5nIJOO-I2Q",
-      "title": "anzibel",
-      "category": "salomat",
-      "type": "expense",
-      "amount": "14000",
-      "date": "2026-08-09"
-    },
-    {
-      "id": "mkphUl7uzLk",
-      "title": "sa",
-      "category": "salomat",
-      "type": "expense",
-      "amount": "12122",
-      "date": "2026-08-10"
-    },
-    {
-      "title": "asal",
-      "category": "salomat",
-      "type": "income",
-      "amount": "60000",
-      "date": "2026-09-11",
-      "id": "y7We0v6k1c8"
-    },
-    {
-      "id": "CMGq5dKEdIE",
-      "title": "saomat",
-      "category": "salomat",
-      "type": "income",
-      "amount": "11111",
-      "date": "2026-08-06"
-    },
-    {
-      "id": "ycYb5uNrAPw",
-      "title": "yo'lkira ishga",
-      "category": "transport",
-      "type": "expense",
-      "amount": "13000",
-      "date": "2026-08-11"
+      "amount": "1000000",
+      "date": "2026-09-25",
+      "id": "oTxRJmnJA0k"
     }
   ],
   "category": [
