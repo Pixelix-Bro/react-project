@@ -10,26 +10,60 @@
   ],
   "harajat": [
     {
-      "title": "supermarket",
-      "category": "salomat",
-      "type": "income",
+      "id": "04aBujvCNOs",
+      "title": "Supermarket",
+      "category": "Supper Market",
+      "type": "expense",
+      "amount": "120000",
+      "date": "2026-09-26"
+    },
+    {
+      "id": "9JGie8E5DmU",
+      "title": "Telefon to'lo'vi",
+      "category": "Oylik to'lo'v",
+      "type": "expense",
       "amount": "1000000",
-      "date": "2026-09-25",
-      "id": "oTxRJmnJA0k"
+      "date": "2026-09-26"
+    },
+    {
+      "id": "OxGN3ZxHe5s",
+      "title": "Aftobus",
+      "category": "Transport",
+      "type": "income",
+      "amount": "12000",
+      "date": "2026-09-26"
     }
   ],
   "category": [
     {
-      "id": "cFkHukJjf50",
-      "category": "salomat",
-      "icon": "Heart",
+      "id": "3nIXEldXijg",
+      "category": "Ovqat",
+      "icon": "Utensils",
+      "color": "sag"
+    },
+    {
+      "id": "pSDOqz2T6l8",
+      "category": "Transport",
+      "icon": "Car",
+      "color": "bint"
+    },
+    {
+      "id": "b7eDKcRcIMU",
+      "category": "Supper Market",
+      "icon": "Shirt",
       "color": "red"
     },
     {
-      "id": "uwfjuckYCGw",
-      "category": "transport",
-      "icon": "Car",
+      "id": "dDOqZ67-vmQ",
+      "category": "Salomatlik",
+      "icon": "Heart",
       "color": "green"
+    },
+    {
+      "id": "cNRFKdClo_M",
+      "category": "Oylik to'lo'v",
+      "icon": "Book",
+      "color": "bin"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

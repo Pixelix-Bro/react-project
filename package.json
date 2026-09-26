@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently \"vite\" \"npm run server\"",
     "build": "vite build",
-    "server": "json-server --watch ./data/data.json",
+    "server": "json-server --watch ./public/data/data.json",
     "lint": "eslint .",
     "preview": "vite preview"
   },

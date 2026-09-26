@@ -20,7 +20,9 @@ function Login({ back }) {
       const res = await apiClient.get("/users");
 
       const user = res.data.find(
-        (u) => u.name === name && u.password === password,
+        (u) =>
+          u.name.toLowerCase() === name.toLowerCase() &&
+          u.password.toLowerCase() === password.toLowerCase(),
       );
 
       if (user) {
@@ -49,7 +51,7 @@ function Login({ back }) {
   return (
     <>
       <div
-        className="flex w-[100%] h-[100%] justify-center items-center mt-[50px] mb-[50px]"
+        className="flex w-screen h-screen flex justify-center items-center"
         id="Login"
       >
         <div className="w-[100%] h-[100%] rounded-2xl xl:w-[300px flex flex-col justify-center items-center">

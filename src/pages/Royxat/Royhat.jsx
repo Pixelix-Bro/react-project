@@ -54,7 +54,7 @@ function Royhat() {
   return (
     <>
       <div
-        className="flex w-[100%] h-[100%] justify-center items-center  p-[20px] "
+        className="flex w-screen h-screen justify-center items-center"
         id="Royhat"
       >
         <div className="w-[100%] h-[700px] bg-blue-100 rounded-2xl  flex flex-col justify-center items-center 2xl:w-[25%]">
